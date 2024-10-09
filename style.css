@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*/
+
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+    background-color: rgb(10, 64, 107);
+}
+header {
+	display: flex;
+	flex-direction: column;
+}
+header .titulo {
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 0 0 50px black;
+}
+
+header #obtener-ciudad{
+	width: 200px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 10px;
+	padding: 0 10px;
+	outline: none;
+	box-shadow: 0 8px 32px 0 rgba(31, 31, 31, 0.37);
+}
+main .info-container {
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 8px 32px 0 rgba(31, 31, 31, 0.37);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border-radius: 20px;
+	max-width: 300px;
+	min-height: 380px;
+	position: relative;
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+}
+#obtener-ciudad{
+	text-align: center;
+}
+.city-name {
+	font-size: 23px;
+	margin: 20px 0;
+}
+.grados{
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.condiciones-climaticas{
+	margin-bottom: 20px;
+}
